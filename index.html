@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Your custom CSS -->
+    <link href="./style.css" rel="stylesheet">
+    <style>
+        #name:hover {
+            color: rgb(244, 224, 8);
+            transition: 0.3s ease;
+        }
+
+        .nav-item a {
+            color: rgb(255, 255, 255) !important;
+        }
+
+        .nav-item a:hover {
+            color: rgb(199, 189, 4) !important;
+        }
+
+
+.list-group-item {
+  border: rgb(6, 6, 0);
+  padding: 10px 0;
+  font-size: 20px;
+  #skills {
+  background-color: #f7f7f7;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+}
+
+.list-group {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #db6262;
+}
+}
+
+.list-group-item:hover {
+  background-color: #f64949;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" id="name" href="#"><b>Solaim Faisal</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav navbar-brand ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-left mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-8 ">
+                    <p>
+                        An MCA student at Madan Mohan Malviya university of technology Gorakhpur and passionate about
+                        becoming a software engineer.
+                    </p>
+                    <p>
+                        My expertise spans across web development and problem solving, and I'm always eager to
+                        expand my skills further. I'm committed to continuous learning and adapting to new technologies.
+
+                    </p>
+                    <p>
+                        Outside of work, I like reading ethical and philosphical literature.
+                    </p>
+                    <div>
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <!-- Project Cards -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of project 1.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards similarly -->
+                <!-- Example of another card -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2><b>Skills</b></h2>
+            <ol class="list-group">
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item">CSS3</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">Bootstrap</li>
+                <li class="list-group-item">C++</li>
+                <li class="list-group-item">MySQL</li>
+                <!-- Add more skills similarly -->
+            </ol>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <!-- Your contact form -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Social media icons -->
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="mailto:solaim2629@gmail.com">
+                                <i class="fas fa-envelope-square fa-3x mx-2"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/solaim-faisal-3b90b31aa/"><i
+                                    class="fab fa-linkedin fa-3x mx-2"></i></a>
+                            <a href="https://github.com/solaim007"><i class="fab fa-github-square fa-3x mx-2"></i></a>
+                            <!-- Replace "#" with your social media links -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2023 Solaim Faisal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
